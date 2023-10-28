@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem 2.2rem 0 2.2rem;
+    margin: 5rem 2.2rem 0 2.2rem;
     font-size: 0.825rem;
     /* border: black solid 3px; */
 }
@@ -26,12 +26,15 @@ body {
 
 .qlcass-logo {
     width: 100px;
+    margin-right: 2rem;
 }
 
 .nav-bar {
     display: flex;
-    gap: 2.4rem;
+    gap: 10rem;
+    width: 80%;
     padding: 2rem;
+    border: #000 solid 3px;
 }
 
 .nav-bar a {
@@ -40,6 +43,7 @@ body {
     color: #fff;
     position: relative;
     padding-bottom: 0.5rem;
+    width: 100%;
 }
 
 .nav-bar a::before {
@@ -289,7 +293,7 @@ body {
 
 /* media query */
 
-@media(max-width: 1680px ){
+@media(max-width: 1880px ){
     .qclass-title {
         font-size: 32rem;
     }
