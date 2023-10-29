@@ -17,11 +17,10 @@ body {
     z-index: -1;
     width: 100%;
     overflow: hidden;
+    opacity: 0.1;
 }
 
 .homepage-body {
-    margin: 0;
-    padding: 0;
     overflow: hidden;
 }
 
@@ -29,7 +28,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 4rem 2.2rem 0 2.2rem;
+    margin: 3.5rem 2.2rem 0 2.2rem;
     font-size: 0.825rem;
 }
 
