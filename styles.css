@@ -120,14 +120,17 @@ body {
     .qlass-desc {
         margin-top: -5.5rem;
     }
+    .footer-icon-container {
+        margin-top: 2rem;
+    }
 
 
 }
 
 
-@media only screen and (min-width: 768px) and (max-width:1190px){
+@media only screen and (min-width: 768px) and (max-width:1199px){
     .nav-bar a {
-        font-size: 1rem;
+        font-size: 1.1rem;
         margin: 0rem;
         padding-left: 0.8rem;
     }
@@ -137,69 +140,39 @@ body {
     .qlass-desc {
         font-size: 1.4rem;
         margin-top: -3rem;
-        animation: fadeIn 2s ease-in-out forwards;
     }
     .qlass-logo {
         width: 50px;
-        margin-left: auto;
+    }
+    .footer-icon-container {
+        justify-content: center;
+        gap: 5rem;
+    }
+    .nav-bar {
+        gap: 4rem;
+        margin-left: 4rem;
     }
 
 }
 
 /* about-us page */
 
+.about-us-body {
+    background-color: #292929;
+}
+
 .about-us-container {
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    align-items: center;
-    margin-top: 5rem;
-}
-
-.about-us-first-session {
-    font-size: 7rem;
-    line-height: 0.1;
-    text-align: right;
-}
-
-.qlass-logo-about-us {
-    width: 150px;
-    height: 150px;
-    margin-left: -2rem;
 
 }
 
-.free-session-container {
-    font-size: 2.0rem;
-    text-align: left;
-    max-width: 600px;
-    line-height: 0.5;
-}
-
-.free-sesh-paragraph {
-    font-weight: 100;
-    line-height: 1.4;
-    font-size: 1.8rem;
-}
-
-.about-us-first-session h1 {
-    font-weight: 600;
-}
-
-.about-us-qlass-linguistic-title {
+.about-us-qclass-linguistic-title {
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
-.qlass-footer {
-    display: inline-flex;
-    gap: 5rem;
-    align-items: center;
-}
-
-
-.qlass-footer p {
-    text-align: center;
+.about-us-paragraph {
+    font-size: 1.5rem;
+    font-weight: 100;
 }
 
 /* become-mentee page */
@@ -405,9 +378,4 @@ body {
 
 .white {
     color: wheat;
-}
-
-.qlass-logo-footerstyled {
-    width: 50px;
-    height: 50px;
 }
