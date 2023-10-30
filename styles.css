@@ -121,6 +121,29 @@ body {
         margin-top: -5.5rem;
     }
 
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width:1190px){
+    .nav-bar a {
+        font-size: 1rem;
+        margin: 0rem;
+        padding-left: 0.8rem;
+    }
+    .qlass-title {
+        font-size: 12rem;
+    }
+    .qlass-desc {
+        font-size: 1.4rem;
+        margin-top: -3rem;
+        animation: fadeIn 2s ease-in-out forwards;
+    }
+    .qlass-logo {
+        width: 50px;
+        margin-left: auto;
+    }
+
 }
 
 /* about-us page */
