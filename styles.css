@@ -66,9 +66,9 @@ body {
 
 .qlass-title {
     font-family: 'Nunito', sans-serif;
-    font-size: 35rem;
+    font-size: 25rem;
     margin: 0;
-    opacity: 0;
+    font-weight: 700;
     animation: fadeIn 2s ease-in-out forwards;
 }
 
@@ -83,7 +83,8 @@ body {
 
 .qlass-desc {
     font-size: 1.5rem;
-    margin-top: -4.5rem;
+    margin-top: -5.5rem;
+    margin-left: 15.3rem;
     font-weight: 100;
 }
 
@@ -105,9 +106,12 @@ body {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
 }
 
-.whatsapp-btn {
+.footer-icon-container {
     display: flex;
     justify-content: flex-end;
+    margin-top: 3rem;
+    gap: .5rem;
+    margin-right: 2rem;
 }
 
 .about-us-body {
