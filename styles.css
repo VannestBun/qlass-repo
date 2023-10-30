@@ -117,6 +117,9 @@ body {
     .qlass-title {
         font-size: 20rem;
     }
+    .qlass-desc {
+        margin-top: -5.5rem;
+    }
 
 }
 
