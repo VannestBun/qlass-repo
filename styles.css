@@ -29,7 +29,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 1.5rem 2.2rem 0 2.2rem;
+    margin: 2.5rem 2.2rem 0 2.2rem;
     font-size: 0.825rem;
     /* animation: fadeIn 2s ease-in-out forwards; */
 }
@@ -70,7 +70,7 @@ body {
 } 
 
 .qlass-title {
-    font-size: 25rem;
+    font-size: 30rem;
     margin: 0;
     font-weight: 600;
     animation: fadeIn 2s ease-in-out forwards;
