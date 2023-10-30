@@ -25,10 +25,11 @@ body {
 
 .main-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 1.5rem 2.2rem 0 2.2rem;
     font-size: 0.825rem;
+    /* animation: fadeIn 2s ease-in-out forwards; */
 }
 
 .main-header h1:hover {
@@ -36,16 +37,16 @@ body {
 }
 
 .qlass-logo {
-    width: 100px;
-    margin-right: 2rem;
-
+    width: 80px;
+    /* margin-right: 2rem; */
+    margin-left: auto;
 }
 
 .nav-bar {
     display: flex;
-    gap: 10rem;
-    width: 80%;
-    padding: 2rem;
+    align-items: center;
+    gap: 6rem;
+    margin-left: 4rem;
 }
 
 .nav-bar a {
@@ -56,11 +57,14 @@ body {
     margin: 1.3rem;
     padding-left: 0.8rem;
     border-left: #fff 1px solid;
+    white-space: nowrap;
+    height:30px;
 }
 
 .nav-bar a:hover{
     font-weight: 800;
     border-left: #fff 5px solid;
+    
 } 
 
 .qlass-title {
@@ -85,6 +89,7 @@ body {
     margin-top: -5.5rem;
     margin-left: 15.3rem;
     font-weight: 100;
+    animation: fadeIn 2s ease-in-out forwards;
 }
 
 .get-started-btn {
@@ -95,8 +100,9 @@ body {
     font-weight: 400;
     border-radius: 100px;
     padding: 1rem 2rem;
-    margin-top: 1.1rem;
+    margin-top: 1.2rem;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    animation: fadeIn 3s ease-in-out forwards;  
 }
 
 
@@ -120,7 +126,17 @@ body {
     margin: 3rem;
 }
 
+@media only screen and (min-width: 1200px) and (max-width:1880px){
+    .nav-bar a {
+        font-size: 1.2rem;
+        margin: 0rem;
+        padding-left: 0.8rem;
+    }
+    .qlass-title {
+        font-size: 20rem;
+    }
 
+}
 
 
 /* become-mentee page */
@@ -304,9 +320,9 @@ body {
 /* media query */
 
 @media(max-width: 1880px ){
-    .qlass-title {
+    /* .qlass-title {
         font-size: 32rem;
-    }
+    } */
     
     .main-section {
         display: flex;
