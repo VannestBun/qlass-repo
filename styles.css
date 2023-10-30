@@ -34,13 +34,8 @@ body {
     /* animation: fadeIn 2s ease-in-out forwards; */
 }
 
-.main-header h1:hover {
-    color: #adadad;
-}
-
 .qlass-logo {
     width: 80px;
-    /* margin-right: 2rem; */
     margin-left: auto;
 }
 
@@ -103,12 +98,6 @@ body {
     padding: 1rem 2rem;
     margin-top: 1.1rem;
     animation: fadeIn 2s ease-in-out forwards;
-}
-
-
-.get-started-btn:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
 }
 
 .footer-icon-container {
