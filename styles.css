@@ -119,6 +119,18 @@ body {
     margin-right: 2rem;
 }
 
+@media only screen and (min-width: 1200px) and (max-width:1880px){
+    .nav-bar a {
+        font-size: 1.2rem;
+        margin: 0rem;
+        padding-left: 0.8rem;
+    }
+    .qlass-title {
+        font-size: 20rem;
+    }
+
+}
+
 /* about-us page */
 
 .about-us-body {
