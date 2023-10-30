@@ -125,22 +125,58 @@ body {
 
 /* about-us page */
 
-.about-us-body {
-    background-color: #292929;
-}
-
 .about-us-container {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.about-us-first-session {
+    font-size: 7rem;
+    line-height: 0.1;
+    text-align: right;
+}
+
+.qlass-logo-about-us {
+    width: 150px;
+    height: 150px;
+    margin-left: -2rem;
 
 }
 
-.about-us-qclass-linguistic-title {
-    font-weight: 400;
-    font-size: 2rem;
+.free-session-container {
+    font-size: 2.0rem;
+    text-align: left;
+    max-width: 600px;
+    line-height: 0.5;
 }
 
-.about-us-paragraph {
-    font-size: 1.5rem;
+.free-sesh-paragraph {
     font-weight: 100;
+    line-height: 1.4;
+    font-size: 1.8rem;
+}
+
+.about-us-first-session h1 {
+    font-weight: 600;
+}
+
+.about-us-qlass-linguistic-title {
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.qlass-footer {
+    display: inline-flex;
+    gap: 5rem;
+    align-items: center;
+}
+
+
+.qlass-footer p {
+    text-align: center;
 }
 
 /* become-mentee page */
@@ -346,4 +382,9 @@ body {
 
 .white {
     color: wheat;
+}
+
+.qlass-logo-footerstyled {
+    width: 50px;
+    height: 50px;
 }
