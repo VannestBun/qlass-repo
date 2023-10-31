@@ -13,26 +13,41 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     </head>
 
-    <body class="contact-body">
-        <h1 class="main-title contact-font">Contact</h1>
-        <h1 class="contact-qlass nunito">qlass group</h1>
-        <div class="contact-container">
+    <body>
+
+        <header class="main-header">
+            <div class="nav-bar">
+                <a href="index.html">Home</a>
+                <a href="about-us.html">About Us</a>
+                <a href="become-mentee.html">Become A Mentee</a>
+                <a href="become-mentor.html">Become A Mentor</a>
+                <a href="contact.html" style="font-weight: 800; border-left: 5px solid #fff;">Contact</a>
+            </div>
+            <img class="qlass-logo" src="images/qlass-white.png">
+        </header>
+
+        <div class="contact-container roboto">
             <div class="user-email">
                 <p>Be first to be notified of qlass group's agendas.</p>
-                <input type="email" id="email" placeholder="Enter your email">
+                <input type="email" id="email" placeholder="Email Address">
                 <p>By signing up, you agree to our Privacy Policy*</p>
-                <button class="save-btn" id="save-btn">Save Email</button>
+                <button class="save-btn nunito" id="save-btn">submit</button>
             </div>
             <div class="social-container">
                 <h1>Socials</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <h1>Support</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
         </div>
-        <a class="white" href="index.html">back</a>
+
+        <footer class="qlass-footer nunito">
+            <img class="qlass-logo-footer" src="images/qlass-white.png">
+            <p>©2023 Qlass Group</p>
+            <p>Terms of Use</p>
+            <p>Privacy Policy</p>
+            <p>Cookie Policy</p>
+        </footer>
+
         <script src="script.js"></script>
     </body>
 </html>

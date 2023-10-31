@@ -159,10 +159,6 @@ body {
 
 /* about-us page */
 
-.about-us-body {
-    background-color: #292929;
-}
-
 .about-us-container {
     display: flex;
     justify-content: center;
@@ -181,7 +177,6 @@ body {
     width: 150px;
     height: 150px;
     margin-left: -2rem;
-
 }
 
 .free-session-container {
@@ -197,20 +192,9 @@ body {
     font-size: 1.8rem;
 }
 
-.about-us-qclass-linguistic-title {
-    font-weight: 400;
-    font-size: 2.5rem;
-}
-
 .about-us-paragraph {
     font-size: 1.5rem;
     font-weight: 100;
-}
-
-.free-sesh-paragraph {
-    font-weight: 100;
-    line-height: 1.4;
-    font-size: 1.8rem;
 }
 
 .about-us-first-session h1 {
@@ -224,7 +208,6 @@ body {
     padding-top: 10rem;
     width: 50%;
     margin-bottom: 5rem;
-    
 }
 
 .second-title {
@@ -244,6 +227,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
+    font-weight: 300;
 }
 
 .qlass-footer p {
@@ -309,16 +293,72 @@ body {
     min-width: 210px;
 }
 
+.register-now-container {
+    display: flex;
+    align-items: center;
+    font-size: 10rem;
+    margin: 10rem 0 0 10rem;
+}
+
+.register-info {
+    font-size: 3rem;
+    text-align: left;
+    margin-right: 8rem;
+}
+
+.register-paragraph,
+.course-details p {
+    font-weight: 500;
+    font-size: 2.2rem;
+    letter-spacing: .3rem;
+}
+
+.register-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("images/girl-studying.jpg");
+    background-size: cover;
+    margin-top: 6rem;
+    min-width: 1000px;
+    min-height: 1200px;
+}
+
+.register-btn-container a {
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.course-details-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    min-height: 900px;
+}
+
+.course-details {
+    margin: 5rem 12rem;
+    text-align: left;
+}
+
+.course-details h1 {
+    font-size: 4rem;
+}
+
+
 /* become a Mentor page*/
 
-.career-body {
-    background-color: #211f1f;
+.carrer-calling-section {
+    margin-bottom: 15rem;
 }
 
 .career-calling {
-    font-size: 18rem;
+    font-size: 10rem;
     margin-bottom: 0;
-    margin-top: 6rem;
+    margin-top: 10rem;
 }
 
 .career-font {
@@ -336,82 +376,54 @@ body {
 
 .apply-btn {
     display: inline-block;
-    text-decoration: none;
     font-size: 1.5rem;
     color: #fff;
-    font-weight: 400;
-    border-radius: 100px;
-    padding: 1.2rem 5rem;
-    margin-top: 1.1rem;
-    background-color: #222;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
 }
 
-.contact-body {
-    background-color: #898989;
-}
-
-.contact-font {
-    font-size: 2rem;
-    
-}
-
-.contact-qlass {
-    font-weight: 800;
-    font-size: 19rem;
-    margin-top: -8.2rem;
-    margin-bottom: 5.6rem;
-}
+/* contact page */
 
 .contact-container {
     display: flex;
     gap: 4rem;
     justify-content: space-around;
-    height: 50vh;
-    /* border: #000 solid 2px; */
+    align-items: center;
+    margin: 10rem;
 }
-
 
 .user-email {
-    border: 2px solid white;
     padding: 2rem 8rem;
-    background-color: #ebeff2;
-    color: #a6a6a6;
+    color: #fff;
     text-align: left;
-    font-size: 2.5rem;
+    font-size: 2rem;
     border-radius: 60px;
     font-weight: 300;
-    transition: background-color 0.3s, border-color 0.3s;
 }
-
-.user-email:hover {
-    background-color: #d9d9d9; /* Slightly darken the background on hover */
-    border-color: #000; /* Change the border color on hover */
-}
-
 
 .user-email input {
     width: 93%;
-    padding: 1.8rem;
+    padding: 1.5rem 2rem;
     font-size: 1.5rem;
     border-radius: 50px;
     border: none;
+    margin: 2rem 0;
 }
 
 #email::placeholder {
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     color: #d9d9d9;
+    font-weight: 800;
     font-size: 1.5rem;
 }
 
 .save-btn {
-    width: 100%;
-    padding: 1.5rem 6rem;
-    border-radius: 50px;
-    background-color: #000;
+    text-decoration: underline;
     border: none;
-    color: #ebeff2;
+    background: none;
+    color: #d9d9d9;
     font-size: 1.5rem;
-    cursor: pointer;
+    font-weight: 700;
 }
 
 .social-container {
@@ -457,4 +469,8 @@ body {
 
 .nunito {
     font-family: 'Nunito', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
 }
