@@ -101,12 +101,14 @@ body {
 }
 
 .footer-icon-container {
+    position: fixed; /* Set the position to fixed */
+    top: 900px; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the right position as needed */
     display: flex;
     justify-content: flex-end;
-    margin-top: 3rem;
     gap: .5rem;
-    margin-right: 2rem;
 }
+
 
 @media only screen and (min-width: 1200px) and (max-width:1880px){
     .nav-bar a {
@@ -215,43 +217,68 @@ body {
     font-weight: 600;
 }
 
-.qlass-footer {
+.about-us-container-second {
     display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 10rem;
+    width: 50%;
+    margin-bottom: 5rem;
+    
+}
+
+.second-title {
+    font-size: 4rem;
+}
+
+.second-paragraph {
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.qlass-footer {
+    display: flex;
+    padding-top: 1.5rem;
     gap: 5rem;
+    justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .qlass-footer p {
     text-align: center;
 }
 
+.qlass-logo-footer {
+    width: 80px;
+    height: 80px;
+}
 
 /* become-mentee page */
 
 .main-section {
     display: flex;
-    flex-direction: row;
 }
 
 .qlass-course {
-    margin: 70px;
+    margin: 100px 70px 70px 70px;
     text-align: left;
     color: #fff;
     line-height: 1.5;
     font-size: 1.45rem;
-    display: flex;
-    flex-direction: column;
 }
 
 .qlass-course .qlass-logo {
     width: 150px;
+    margin-left: -20px;
 }
 
 .qlass-course p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
     text-align: left;
-    letter-spacing: .1rem;
-    font-weight: lighter;
+    letter-spacing: .3rem;
     margin: 1rem 0;
 }
 
@@ -267,18 +294,22 @@ body {
     display: flex;
     text-align: center;
     justify-content: flex-start;
-    margin: 1.5rem 0;
+    margin: 3.5rem 0;
 }
 
 .course-buttons a {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
     margin-right: 2.5rem;
     text-decoration: none;
-    color: #000;
-    background-color: #fff;
-    padding: 0.8rem 0;
+    color: #373636;
+    background-color: #edf0f2;
+    padding: 1.1rem 0;
     border-radius: 100px;
-    width: 150px;
+    min-width: 210px;
 }
+
+/* become a Mentor page*/
 
 .career-body {
     background-color: #211f1f;
@@ -426,8 +457,4 @@ body {
 
 .nunito {
     font-family: 'Nunito', sans-serif;
-}
-
-.white {
-    color: wheat;
 }
