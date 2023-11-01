@@ -577,14 +577,13 @@ body {
 
 /* media query */
 
-@media(min-width: 1880px ){
+/* @media(min-width: 1880px ){
     .qlass-title {
         font-size: 32rem;
     }
     
     .main-section {
         display: flex;
-        height: 80vh;
         margin: 0 2.5rem;
     }
     
@@ -595,7 +594,6 @@ body {
     .course-title {
         font-family: 'Nunito', sans-serif;
         font-weight: 600;
-        color: #545454;
         font-size: 3.1rem;
     }
     
@@ -603,7 +601,7 @@ body {
         font-size: 1.2rem;
     
     }
-}
+} */
 
 /* utility */
 
