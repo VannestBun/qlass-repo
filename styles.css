@@ -112,7 +112,7 @@ body {
 
 @media only screen and (min-width: 1200px) and (max-width:1880px){
     .nav-bar a {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin: 0rem;
         padding-left: 0.8rem;
     }
@@ -130,7 +130,7 @@ body {
 }
 
 
-@media only screen and (min-width: 768px) and (max-width:1199px){
+@media only screen and (min-width: 768px) and (max-width:1200px){
     .nav-bar a {
         font-size: 1.1rem;
         margin: 0rem;
@@ -151,9 +151,12 @@ body {
         gap: 5rem;
     }
     .nav-bar {
-        gap: 4rem;
+        gap: 3rem;
+        justify-content: flex-start;
         margin-left: 4rem;
     }
+
+
 
 }
 
@@ -260,7 +263,6 @@ body {
 .qlass-course{
     text-align: justify;
     width: 500px;
-    font-size: 1.45rem;
     line-height: 1.5;
 }
 
@@ -276,13 +278,13 @@ body {
     letter-spacing: .3rem;
     margin: 1rem 0;
     text-align: justify;
+    font-size: 2.2rem;
 }
 
-.qlass-course .course-title {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
+
+.course-title{
     font-size: 3.1rem;
-    color: white;
+    font-weight: 600;
     margin: 1rem 0;
 }
 
@@ -324,7 +326,6 @@ body {
     font-weight: 500;
     font-size: 2.2rem;
     letter-spacing: .3rem;
-    text-align: justify;
 }
 
 .register-btn-container {
@@ -369,21 +370,67 @@ body {
     .qlass-course{
         text-align: justify;
         width: 500px;
-        font-size: 1.3rem;
         line-height: 1.3;
     }
     .qlass-body-logo{
-        width:130px;
+        width:120px;
     }
     .course-details h1, .register-info h1 {
         font-size: 3rem;
     }
+    .register-paragraph,
+    .course-details p {
+        font-size: 1.8rem;
+        line-height: 1.5;
+    }
+    .qlass-footer {
+        font-size: 1rem;
+    }
+    .register-btn-container a {
+        font-size: 4rem;
+        color: #fff;
+        font-weight: 700;
+    }
+    .course-title{
+        font-size: 2.8rem;
+    }
+    .qlass-course p{
+        font-size: 1.5rem;
+    }
+    
+
+
 
 }
 
 
 @media only screen and (min-width: 768px) and (max-width:1199px){
-
+    .qlass-body-logo{
+        width:100px;
+    }
+    .course-details h1, .register-info h1 {
+        font-size: 2.5rem;
+    }
+    .register-paragraph,
+    .course-details p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+    .qlass-footer {
+        font-size: 1rem;
+    }
+    .register-btn-container a {
+        font-size: 3.2rem;
+    }
+    .course-title{
+        font-size: 2.5rem;
+    }
+    .qlass-course p{
+        font-size: 1.2rem;
+    }
+    .register-btn-container {
+        min-height: 800px;
+    }
 
 }
 
@@ -482,7 +529,7 @@ body {
         font-size: 32rem;
     } */
     
-    .main-section {
+    /* .main-section {
         display: flex;
         height: 80vh;
         margin: 0 2.5rem;
@@ -490,19 +537,19 @@ body {
     
     .qlass-course {
         font-size: 1.2rem;
-    }
+    } */
 
-    .course-title {
+    /* .course-title {
         font-family: 'Nunito', sans-serif;
         font-weight: 600;
         color: #545454;
         font-size: 3.1rem;
-    }
+    } */
     
-    .course-buttons a {
+    /* .course-buttons a {
         font-size: 1.2rem;
     
-    }
+    } */
 }
 
 /* utility */
