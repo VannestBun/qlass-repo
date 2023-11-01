@@ -242,6 +242,61 @@ body {
     height: 80px;
 }
 
+@media only screen and (min-width: 1200px) and (max-width:1880px){
+    .qlass-footer {
+        font-size: 1rem;
+    }
+    .about-us-first-session {
+        font-size: 5rem;
+    }
+    .qlass-logo-about-us {
+        width: 100px;
+        height: auto;
+    }
+    
+    .free-session-container {
+        font-size: 1.6rem;
+        max-width: 400px;
+        line-height: 0.5;
+    }
+    
+    .free-sesh-paragraph {
+        font-size: 1.35rem;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:1200px){
+    .qlass-footer {
+        font-size: 1rem;
+    }
+    .about-us-first-session {
+        font-size: 3.5rem;
+    }
+    .qlass-logo-about-us {
+        width: 80px;
+        height: auto;
+    }
+    
+    .free-session-container {
+        font-size: 1.3rem;
+        max-width: 400px;
+        line-height: 0.5;
+    }
+    
+    .free-sesh-paragraph {
+        font-size: 1.2rem;
+    }
+    .second-title {
+        font-size: 3rem;
+    }
+    
+    .second-paragraph {
+        font-size: 2rem;
+    }
+
+}
+
 /* become-mentee page */
 
 .main-section {
@@ -383,9 +438,7 @@ body {
         font-size: 1.8rem;
         line-height: 1.5;
     }
-    .qlass-footer {
-        font-size: 1rem;
-    }
+
     .register-btn-container a {
         font-size: 4rem;
         color: #fff;
@@ -525,11 +578,11 @@ body {
 /* media query */
 
 @media(min-width: 1880px ){
-    /* .qlass-title {
+    .qlass-title {
         font-size: 32rem;
-    } */
+    }
     
-    /* .main-section {
+    .main-section {
         display: flex;
         height: 80vh;
         margin: 0 2.5rem;
@@ -537,19 +590,19 @@ body {
     
     .qlass-course {
         font-size: 1.2rem;
-    } */
+    }
 
-    /* .course-title {
+    .course-title {
         font-family: 'Nunito', sans-serif;
         font-weight: 600;
         color: #545454;
         font-size: 3.1rem;
-    } */
+    }
     
-    /* .course-buttons a {
+    .course-buttons a {
         font-size: 1.2rem;
     
-    } */
+    }
 }
 
 /* utility */
