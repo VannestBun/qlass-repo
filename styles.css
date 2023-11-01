@@ -317,7 +317,7 @@ body {
 
 .qlass-course{
     text-align: justify;
-    width: 500px;
+    width: 550px;
     line-height: 1.5;
 }
 
@@ -352,7 +352,7 @@ body {
 
 .course-buttons a {
     font-family: 'Nunito', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     margin-right: 2.5rem;
     text-decoration: none;
     color: #373636;
@@ -574,34 +574,6 @@ body {
     line-height: 1.5;
     font-size: 1.4rem;
 }
-
-/* media query */
-
-/* @media(min-width: 1880px ){
-    .qlass-title {
-        font-size: 32rem;
-    }
-    
-    .main-section {
-        display: flex;
-        margin: 0 2.5rem;
-    }
-    
-    .qlass-course {
-        font-size: 1.2rem;
-    }
-
-    .course-title {
-        font-family: 'Nunito', sans-serif;
-        font-weight: 600;
-        font-size: 3.1rem;
-    }
-    
-    .course-buttons a {
-        font-size: 1.2rem;
-    
-    }
-} */
 
 /* utility */
 
