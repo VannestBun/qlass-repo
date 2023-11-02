@@ -352,6 +352,7 @@ body {
 
 .course-buttons a {
     font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
     font-weight: 700;
     margin-right: 2.5rem;
     text-decoration: none;
