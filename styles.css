@@ -1,13 +1,19 @@
 * {
     box-sizing: border-box;
   }
+html {
+    scroll-behavior: smooth;
+  }
 
 body {
     background-color: #292929;
     font-family: sans-serif;
     color: #fff;
     text-align: center;
+    margin: 0;
 }
+
+
 
 /* homepage */
 .background-clip {
@@ -26,7 +32,12 @@ body {
     align-items: center;
     margin: 2.5rem 2.2rem 0 2.2rem;
     font-size: 0.825rem;
-    /* animation: fadeIn 2s ease-in-out forwards; */
+    /* background-color: #292929;;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    height: 80px; */
 }
 
 .qlass-logo {
