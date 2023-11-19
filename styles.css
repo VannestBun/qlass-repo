@@ -1,13 +1,19 @@
 * {
     box-sizing: border-box;
   }
+html {
+    scroll-behavior: smooth;
+  }
 
 body {
     background-color: #292929;
     font-family: sans-serif;
     color: #fff;
     text-align: center;
+    margin: 0;
 }
+
+
 
 /* homepage */
 .background-clip {
@@ -26,7 +32,12 @@ body {
     align-items: center;
     margin: 2.5rem 2.2rem 0 2.2rem;
     font-size: 0.825rem;
-    /* animation: fadeIn 2s ease-in-out forwards; */
+    /* background-color: #292929;;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    height: 80px; */
 }
 
 .qlass-logo {
@@ -105,9 +116,9 @@ body {
 }
 
 
-@media only screen and (min-width: 1200px) and (max-width:1880px){
+@media only screen and (min-width: 1200px) and (max-width:1919px){
     .nav-bar a {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         margin: 0rem;
         padding-left: 0.8rem;
     }
@@ -150,9 +161,33 @@ body {
         justify-content: flex-start;
         margin-left: 4rem;
     }
+}
 
-
-
+@media only screen and (min-width: 1920px){
+    .nav-bar a {
+        font-size: 1.1vw;
+        margin: 0rem;
+        padding-left: 0.8rem;
+    }
+    .qlass-title {
+        font-size: 20vw;
+    }
+    .qlass-desc {
+        font-size: 2vw;
+        margin-top: -6.5vh;
+    }
+    .qlass-logo {
+        width: 5vw;
+    }
+    .footer-icon-container {
+        justify-content: center;
+        gap: 5rem;
+    }
+    .nav-bar {
+        gap: 2.5vw;
+        justify-content: space-around;
+        margin-left: 4rem;
+    }
 }
 
 /* about-us page */
@@ -162,7 +197,7 @@ body {
     justify-content: center;
     gap: 5rem;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 50vh;
 }
 
 .about-us-first-session {
@@ -291,6 +326,37 @@ body {
     }
 
 }
+
+/* @media only screen and (min-width: 1920px){
+    .qlass-footer {
+        font-size: 1rem;
+    }
+    .about-us-first-session {
+        font-size: 3.5rem;
+    }
+    .qlass-logo-about-us {
+        width: 80px;
+        height: auto;
+    }
+    
+    .free-session-container {
+        font-size: 1.3rem;
+        max-width: 400px;
+        line-height: 0.5;
+    }
+    
+    .free-sesh-paragraph {
+        font-size: 1.2rem;
+    }
+    .second-title {
+        font-size: 3rem;
+    }
+    
+    .second-paragraph {
+        font-size: 2rem;
+    }
+
+} */
 
 /* become-mentee page */
 
@@ -503,7 +569,6 @@ body {
 
 .career-paragraph {
     margin: 0 auto;
-    /* border: 2px solid white; */
     font-size: 1.6rem;
     width: 70%;
     letter-spacing: .2rem;
@@ -524,12 +589,12 @@ body {
     display: flex;
     gap: 4rem;
     justify-content: space-around;
-    align-items: center;
-    margin: 10rem;
+    margin-top: 35vh;
+    width: 80%;
+    margin-left: 15vw;
 }
 
 .user-email {
-    padding: 2rem 8rem;
     color: #fff;
     text-align: left;
     font-size: 2rem;
@@ -563,12 +628,77 @@ body {
 }
 
 .social-container {
-    width: 800px;
+    width: 40vw;
     text-align: left;
     letter-spacing: .2rem;
     font-weight: 600;
     line-height: 1.5;
     font-size: 1.4rem;
+}
+
+
+
+@media only screen and (min-width: 1200px) and (max-width:1919px){   
+.contact-container {
+    width: 70%;
+}
+.user-email {
+    font-size: 1.5rem;
+}
+#email::placeholder {
+    font-size: 1.3rem;
+}
+.social-container {
+    width: 40vw;
+    font-size: 1.5rem;
+}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width:1200px){
+   
+.user-email {
+    font-size: 1.3rem;
+}
+
+#email::placeholder {
+    font-size: 1.2rem;
+}
+
+.save-btn {
+    font-size: 1.2rem;
+}
+
+.social-container {
+    font-size: 1.2rem;
+}
+
+.social-container p {
+    font-size: 1rem;
+}
+}
+
+@media only screen and (min-width: 1920px){
+   
+.contact-container {
+    gap:1rem;
+    margin-left: 12vw;
+}
+
+.user-email {
+    font-size: 2.5rem;
+}
+#email::placeholder {
+    font-size: 1.5rem;
+}
+.save-btn {
+    font-size: 2rem;
+}
+
+.social-container {
+    width: 30vw;
+    font-size: 1.6rem;
+}
 }
 
 /* utility */

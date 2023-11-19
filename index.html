@@ -15,13 +15,13 @@
 <body>
 
     <!-- homepage -->
-    <header class="main-header">
+    <header id="top-page" class="main-header">
         <div class="nav-bar">
-            <a href="index.html" style="font-weight: 800; border-left: 5px solid #fff;">Home</a>
-            <a href="about-us.html">About Us</a>
-            <a href="become-mentee.html">Become A Mentee</a>
-            <a href="become-mentor.html">Become A Mentor</a>
-            <a href="contact.html">Contact</a>
+            <a href="#top-page" >Home</a>
+            <a href="#about-us-page">About Us</a>
+            <a href="#become-mentee-page">Become A Mentee</a>
+            <a href="#become-mentor-page">Become A Mentor</a>
+            <a href="#contact-page">Contact</a>
         </div>
         <img class="qlass-logo" src="images/qlass-white.png">
     </header>
@@ -30,14 +30,15 @@
     </video>
     <h1 class="qlass-title nunito">qlass</h1>
     <h1 class="qlass-desc">Where ambition turns into reality</h1>
-    <a class="get-started-btn" href="about-us.html">Get started</a>
+    <a class="get-started-btn" href="#about-us-page">Get started</a>
     <div class="footer-icon-container">
         <a href="#"><img src="images/whatsapp-icon.png"></a>
         <a href="#"><img src="images/message-icon.png"></a>
     </div>
 
 <!-- about us page -->
-    <section class="about-us-container">
+<!-- <div id="about-us-page" ></div> -->
+    <section id="about-us-page" class="about-us-container">
         <div class="about-us-first-session nunito">
             <h1>First</h1>
             <h1>Session</h1>
@@ -46,7 +47,7 @@
         <div class="free-session-container nunito">
             <img class="qlass-logo-about-us" src="images/qlass-white.png">
             <h1 class="nunito">qlass linguistics</h1>
-            <p class="free-sesh-paragraph">We want to make sure we are the right fit for you!
+            <p class="free-sesh-paragraph" id = "free-sesh-paragraph">We want to make sure we are the right fit for you!
             Join a 30-minute session with one of our mentors and see how you like it. 
             <strong>No sneaky charges and no strings attached.</strong></p>
         </div>
@@ -64,6 +65,7 @@
     </section>
 
     <!-- become-mentee page -->
+    <div id="become-mentee-page"></div>
     <div class="main-section nunito">
         <div class="qlass-course">
             <img class="qlass-body-logo" src="images/qlass-white.png">
@@ -122,7 +124,8 @@
     </section>
 
     <!-- become a mentor page -->
-    <section class="carrer-calling-section">
+    <div id="become-mentor-page"></div>
+    <section  class="carrer-calling-section">
         <h1 class="career-calling nunito">work with us</h1>
         <div class="career-paragraph nunito">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -134,7 +137,7 @@
     </section>
 
     <!-- contact page -->
-    <div class="contact-container roboto">
+    <div  id= "contact-page" class="contact-container roboto">
         <div class="user-email">
             <p>Be first to be notified of qlass group's agendas.</p>
             <input type="email" id="email" placeholder="Email Address">
