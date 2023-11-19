@@ -89,9 +89,7 @@ body {
 
 .qlass-desc {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.6rem;
-    margin-top: -6.5rem;
-    margin-left: 25rem;
+    margin-left: 15rem;
     font-weight: 100;
     animation: fadeIn 2s ease-in-out forwards;
 }
@@ -107,14 +105,16 @@ body {
 }
 
 .footer-icon-container {
-    position: fixed; /* Set the position to fixed */
-    top: 900px; /* Adjust the top position as needed */
-    right: 20px; /* Adjust the right position as needed */
-    display: flex;
-    justify-content: flex-end;
-    gap: .5rem;
+    position: fixed;
+    top: 900px;
+    right: 20px; 
+    /* display: flex;
+    justify-content: flex-end; */
 }
 
+.footer-icon-container a {
+    margin-right: .5rem;
+}
 
 @media only screen and (min-width: 1200px) and (max-width:1919px){
     .nav-bar a {
