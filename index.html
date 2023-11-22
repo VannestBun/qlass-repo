@@ -10,7 +10,7 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Open+Sans:wght@500;600;700&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -38,7 +38,28 @@
 
 <!-- about us page -->
 <!-- <div id="about-us-page" ></div> -->
-    <section id="about-us-page" class="about-us-container">
+
+    <section id="about-us-page">
+        <section class="about-us-container bottom-margin">
+            <section class="about-us-container-second nunito">
+                <h1 class="second-title">"Your one stop solution to every stage of learning"</h1>
+                <p class="second-paragraph">Qlass Group is a company that runs subsidiaries which operates in the education industry. 
+                We work productively and inclusively in creating a sustainable educational ecosystem for both 
+                the educators and learners in turning ambitions into reality.</p>   
+                <p class="second-paragraph">from learners to learners, catering services for: </p> 
+            </section>
+            <img src="/images/white-image.jpeg"></img>
+        </section>
+        <div class="catering-service-container">
+            <p class="second-paragraph">Studying Abroad</p>
+            <p class="second-paragraph">Student Exchange</p>
+            <p class="second-paragraph">University Application</p>
+            <p class="second-paragraph">Job Applications</p>
+            <p class="second-paragraph">Scholarship Applications</p>
+        </div>
+    </section>
+
+    <section class="about-us-container top-margin">   
         <div class="about-us-first-session nunito">
             <h1>First</h1>
             <h1>Session</h1>
@@ -50,34 +71,28 @@
             <p class="free-sesh-paragraph" id = "free-sesh-paragraph">We want to make sure we are the right fit for you!
             Join a 30-minute session with one of our mentors and see how you like it. 
             <strong>No sneaky charges and no strings attached.</strong></p>
+            <a class="register-form" href="https://form.jotform.com/233234188143352" target="_blank">Register Now</a>
         </div>
     </section>
-    <div class="footer-icon-container">
+    <!-- <div class="footer-icon-container">
         <a href="#"><img src="images/whatsapp-icon.png"></a>
         <a href="#"><img src="images/message-icon.png"></a>
-    </div>
-
-    <section class="about-us-container-second nunito">
-        <h1 class="second-title">"Your one stop solution to every stage of learning"</h1>
-        <p class="second-paragraph">Qlass Group is a company that runs subsidiaries which operates in the education industry. 
-        We work productively and inclusively in creating a sustainable educational ecosystem for both 
-        the educators and learners in turning ambitions into reality.</p>    
-    </section>
-
+    </div> -->
     <!-- become-mentee page -->
     <div id="become-mentee-page"></div>
     <div class="main-section nunito">
+        <img src="images/white-image.jpeg">
         <div class="qlass-course">
-            <img class="qlass-body-logo" src="images/qlass-white.png">
+            <!-- <img class="qlass-body-logo" src="images/qlass-white.png"> -->
             <h1 class="course-title">qlass linguistics</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <div class="course-buttons">
-                <a href="#">Register</a>
-                <a href="#">Learn More </a>
+                <a class="register-form" href="https://form.jotform.com/233234188143352" target="_blank">Take the Placement Test Now </a>
+                <a class="register-form" href="https://form.jotform.com/233234188143352" target="_blank">Register Now</a>
             </div>
         </div>
-        <div class="qlass-course">
+        <!-- <div class="qlass-course">
             <img class="qlass-body-logo" src="images/qlass-white.png">
             <h1 class="course-title">qlass education</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -96,7 +111,7 @@
                 <a href="#">Register</a>
                 <a href="#">Learn More </a>
             </div>
-        </div>
+        </div> -->
     </div>
 
     <div class="register-now-container">
@@ -132,22 +147,29 @@
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
-    <a class="apply-btn nunito" href="#">Apply Now</a>
+    <a class="register-form" href="https://form.jotform.com/233234188143352" target="_blank">Apply Now</a>
 
     </section>
 
     <!-- contact page -->
     <div  id= "contact-page" class="contact-container roboto">
         <div class="user-email">
+            <h1 class="nunito contact-title">what's to come?</h1>
             <p>Be first to be notified of qlass group's agendas.</p>
-            <input type="email" id="email" placeholder="Email Address">
+            <form>
+                <input type="email" id="email" placeholder="Email Address">
+                <button class="save-btn nunito" id="save-btn">submit</button>
+            </form>
             <p>By signing up, you agree to our Privacy Policy*</p>
             <button class="save-btn nunito" id="save-btn">submit</button>
         </div>
         <div class="social-container">
-            <h1>Socials</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h1 class="nunito social-title">qlass education</h1>
+            <p>qlass education aspires to guide students seeking for opportunities to study abroad by helping them acquire 
+                different scholarship programs such as <strong>IISMA, LPDP and more</strong></p>
+            <h1 class="nunito social-title">qlass rentals</h1>
+            <p>qlass rentals is built on the motivation to ease out client's journey abroad and help 
+                them settle down by connecting them to leasers in their dream country of destination </p>
         </div>
     </div>
 
