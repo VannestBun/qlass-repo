@@ -7,6 +7,3 @@ saveBtn.addEventListener("click", function() {
     userEmail.value = ''
 
 })
-
-
-

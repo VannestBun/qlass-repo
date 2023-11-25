@@ -894,7 +894,7 @@ body {
 
   
   .carousel-item{
-    height:35rem;
+    height: 70vh;
     position: relative;
     background-position: center;
     background-size:cover;
