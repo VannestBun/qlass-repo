@@ -90,6 +90,7 @@ body {
 .qlass-desc {
     font-family: 'Roboto', sans-serif;
     margin-left: 15rem;
+
     font-weight: 100;
     animation: fadeIn 2s ease-in-out forwards;
 }
@@ -129,7 +130,7 @@ body {
         font-size: 20rem;
     }
     .qlass-desc {
-        margin-top: -5.5rem;
+        margin-top: -4rem;
     }
     .footer-icon-container {
         margin-top: 2rem;
@@ -217,6 +218,9 @@ body {
     line-height: 0.1;
     text-align: right;
 }
+.about-us-first-session h1{
+    font-size: 7rem;
+}
 
 .qlass-logo-about-us {
     width: 150px;
@@ -277,10 +281,18 @@ body {
     font-size: 3rem;
 }
 
-.second-paragraph {
+.second-paragraph,
+.second-paragraph-animation {
     font-size: 2rem;
     font-weight: 100;
     line-height: 1.5;
+}
+
+.second-paragraph-animation {
+    display: inline-block; 
+    margin-right: 150px;
+    position: relative;
+    animation: horizontalMove 15s linear infinite;
 }
 
 .catering-service-container {
@@ -288,11 +300,21 @@ body {
     justify-content: center;
     gap: 7rem;
     background-color: #000;
+
+    white-space: nowrap; /* Ensure the text stays in a single line */
+    overflow: hidden;
 }
+
+@keyframes horizontalMove {
+    from{right:-100vw;}
+    to{right:100vw;}
+  }
 
 .qlass-footer {
     display: flex;
     border: #000 solid 4px;
+    padding: 4rem;
+    margin: 5rem 0;
 }
 
 /* .qlass-footer {
@@ -336,7 +358,7 @@ body {
     .qlass-footer {
         font-size: 1rem;
     }
-    .about-us-first-session {
+    .about-us-first-session h1{
         font-size: 5rem;
     }
     .qlass-logo-about-us {
@@ -684,34 +706,42 @@ body {
 .user-email {
     color: #fff;
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: 60px;
     font-weight: 300;
 }
 
 .user-email input {
     width: 93%;
-    padding: 1.5rem 2rem;
+    padding: 1.2rem 2rem;
     font-size: 1.5rem;
-    border-radius: 50px;
     border: none;
-    margin: 2rem 0;
 }
 
 #email::placeholder {
     font-family: sans-serif;
-    color: #d9d9d9;
-    font-weight: 800;
+    color: #373637;
+    /* font-size: 1.5rem; */
+    opacity: 0.6;
+}
+
+.input-container {
+    display: flex;
+    background-color: #fff;
+}
+
+.input-container button {
     font-size: 1.5rem;
 }
 
 .save-btn {
+    font-family: 'roboto';
+    font-weight: 300;
     text-decoration: underline;
     border: none;
     background: none;
-    color: #d9d9d9;
-    font-size: 1.5rem;
-    font-weight: 700;
+    color: #373637;
+    padding-right: 2rem;
 }
 
 .social-container {
@@ -860,4 +890,22 @@ body {
 
   #prev-btn{
     display: none;
+  }
+
+  
+  .carousel-item{
+    height:35rem;
+    position: relative;
+    background-position: center;
+    background-size:cover;
+    padding: 30px;
+  }
+
+  .carousel-images img{
+    width: 15vw;
+  }
+
+  .carousel-images{
+    height:25vh;
+    margin-bottom: 30vh;
   }
