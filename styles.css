@@ -228,7 +228,7 @@ body {
     font-size: 2.0rem;
     text-align: left;
     max-width: 600px;
-    line-height: 0.5;
+    /* line-height: 0.5; */
 }
 
 .free-sesh-paragraph {
@@ -238,6 +238,7 @@ body {
 }
 
 .register-form {
+    display: inline-block;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
@@ -245,6 +246,13 @@ body {
     color: #292929;
     padding: .6rem 2.2rem;
     background-color: #d3cfcf;
+}
+
+.inquiries-container {
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 0.3;
+    margin-top: 5rem;
 }
 
 .about-us-paragraph {
@@ -284,6 +292,11 @@ body {
 
 .qlass-footer {
     display: flex;
+    border: #000 solid 4px;
+}
+
+/* .qlass-footer {
+    display: flex;
     padding-top: 1.5rem;
     gap: 5rem;
     justify-content: center;
@@ -299,6 +312,24 @@ body {
 .qlass-logo-footer {
     width: 80px;
     height: 80px;
+} */
+
+.qlass-footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+    margin: 2rem 0;
+}
+
+.qlass-footer-logo h1 {
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.qlass-footer-logo img {
+    width: 30px;
+    height: 30px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width:1880px){
@@ -438,6 +469,37 @@ body {
     margin: 2rem 0;
 }
 
+.examination-container {
+    margin: 30rem 0;
+    padding: 0 0 5rem 0;
+    background-color: #fff;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 20rem;
+}
+
+.img-container img {
+    width: 10%;
+    height: 10%;
+}
+
+.register-form-exam {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: .6rem 2.2rem;
+    background-color: #373637;
+    color: #fff;
+
+}
+
 .register-now-container {
     display: flex;
     align-items: center;
@@ -477,6 +539,17 @@ body {
     font-weight: 700;
 }
 
+.map-image {
+    width: 90%;
+    margin: 2rem 0;
+}
+
+.quotation {
+    font-size: 8rem;
+    font-family: 'Ephesis', cursive;
+}
+
+/* 
 .course-details-section {
     display: flex;
     flex-wrap: wrap;
@@ -494,7 +567,7 @@ body {
 
 .course-details h1, .register-info h1 {
     font-size: 4rem;
-}
+} */
 
 
 @media only screen and (min-width: 1200px) and (max-width:1880px){
@@ -736,3 +809,55 @@ body {
 .roboto {
     font-family: 'Roboto', sans-serif;
 }
+
+.font-light {
+    font-weight: 500;
+}
+
+.white-background {
+    background-color: #fff;
+}
+
+
+/* tester */
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    width: 100vw;
+    flex-shrink: 0;
+    box-sizing: border-box;
+  }
+
+  .slide img {
+    width: 10%;
+    height: auto;
+  }
+
+  button {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .nav-btn-container {
+    display: flex;
+
+  }
+
+  #next-btn {
+    background-color: white;
+    border: none;
+    margin-left: auto;
+  }
+
+  #prev-btn{
+    display: none;
+  }
