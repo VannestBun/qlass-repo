@@ -341,13 +341,12 @@ body {
     justify-content: center;
     align-items: center;
     gap: .2rem;
-    margin-bottom: 0;
-    padding-bottom: 4rem;
+    margin: 2rem 0;
 }
 
 .qlass-footer-logo h1 {
-    font-size: 1.5rem;
-    font-weight: 800;
+    font-size: .8rem;
+    font-weight: 400;
 }
 
 .qlass-footer-logo img {
@@ -695,17 +694,13 @@ body {
 
 /* contact page */
 
-.black-linear-background {
-    background-color: #000;
-}
-
 .contact-container {
     display: flex;
     gap: 4rem;
     justify-content: space-around;
     margin-top: 35vh;
     width: 80%;
-    /* margin-left: 15vw; */
+    margin-left: 15vw;
 }
 
 .user-email {
@@ -762,16 +757,6 @@ body {
     font-size: 5rem;
     font-weight: 600;
     margin-bottom: 0;
-}
-
-.footer-container {
-    text-align: right;
-}
-
-.social-media-icons-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
 }
 
 .contact-title {
