@@ -300,6 +300,8 @@ body {
     justify-content: center;
     gap: 7rem;
     background-color: #000;
+    padding: 1.5rem;
+    margin-top: 5vh;
 
     white-space: nowrap; /* Ensure the text stays in a single line */
     overflow: hidden;
@@ -767,6 +769,11 @@ body {
 
 .footer-container {
     text-align: right;
+    margin-top: 30rem;
+}
+
+.regis-container {
+    margin-top: 30rem;
 }
 
 
