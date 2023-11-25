@@ -50,11 +50,11 @@
             <img src="/images/white-image.jpeg"></img>
         </section>
         <div class="catering-service-container">
-            <p class="second-paragraph">Studying Abroad</p>
-            <p class="second-paragraph">Student Exchange</p>
-            <p class="second-paragraph">University Application</p>
-            <p class="second-paragraph">Job Applications</p>
-            <p class="second-paragraph">Scholarship Applications</p>
+            <p class="second-paragraph-animation">Studying Abroad</p>
+            <p class="second-paragraph-animation">Student Exchange</p>
+            <p class="second-paragraph-animation">University Application</p>
+            <p class="second-paragraph-animation">Job Applications</p>
+            <p class="second-paragraph-animation">Scholarship Applications</p>
         </div>
     </section>
 
@@ -116,7 +116,7 @@
             </div>
           </div>
           <div class="nav-btn-container">
-            <button id="prev-btn" onclick="prevSlide()">prev<img src="images/back.png"></button>
+            <button id="prev-btn" onclick="prevSlide()">prev</button>
             <button id="next-btn" onclick="nextSlide()">next<img src="images/right-arrow.png"></button>
           </div>
           <div><a class="register-form-exam" href="https://form.jotform.com/233234188143352" target="_blank">Register Now</a></div>
@@ -195,11 +195,19 @@
         <div class="user-email">
             <h1 class="nunito contact-title">what's to come?</h1>
             <p>Be first to be notified of qlass group's agendas.</p>
-            <form>
+            <div class="input-container">
                 <input type="email" id="email" placeholder="Email Address">
-            </form>
-            <p>By signing up, you agree to our Privacy Policy*</p>
-            <button class="save-btn nunito" id="save-btn">submit</button>
+                <button class="save-btn" id="save-btn">Submit</button>
+            </div>
+            <div>
+                <p>For qlass registrations and inquiries</p>
+                <p>+62 877 7819 8409</p>
+                <p>info@qlasseducation.org</p>
+                <div class="input-container">
+                    <input type="email" id="email" placeholder="Email Address">
+                    <button class="save-btn" id="save-btn">Submit</button>
+                </div>
+            </div>
         </div>
         <div class="social-container">
             <h1 class="nunito social-title">qlass education</h1>
@@ -208,34 +216,39 @@
             <h1 class="nunito social-title">qlass rentals</h1>
             <p>qlass rentals is built on the motivation to ease out client's journey abroad and help 
                 them settle down by connecting them to leasers in their dream country of destination </p>
+            <div>
+                <h1>qlass</h1>
+                <p>Where Ambition Turns into Reality</p>
+                <div class="social-media-icons">
+                    <img src="images/insta.png">
+                    <img src="">
+                    <img src="">
+                </div>
+                <h5>©2023 Qlass Group</h5>             
+            </div>
         </div>
     </div>
-
+<!-- 
     <footer class="qlass-footer">
         <div>
             <p>For qlass registrations and inquiries</p>
             <p>+62 877 7819 8409</p>
             <p>info@qlasseducation.org</p>
-
+        </div>
+            <div class="input-container">
+                <input type="email" id="email" placeholder="Email Address">
+                <button class="save-btn" id="save-btn">Submit</button>
+            </div>
         </div>
         <div>
 
         </div>
-    </footer>
+    </footer> -->
 
     <div class="qlass-footer-logo">
         <img src="images/qlass-white.png">
         <h1>PT Qlass Education Group</h1>
     </div>
-
-    <!-- <footer class="qlass-footer">
-        <img class="qlass-logo-footer nunito" src="images/qlass-white.png">
-        <p>©2023 Qlass Group</p>
-        <p>Terms of Use</p>
-        <p>Privacy Policy</p>
-        <p>Cookie Policy</p>
-    </footer> -->
-    
     <script src="script.js"></script>
 </body>
 </html>
