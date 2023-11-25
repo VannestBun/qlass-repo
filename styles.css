@@ -700,7 +700,7 @@ body {
     justify-content: space-around;
     margin-top: 35vh;
     width: 80%;
-    margin-left: 15vw;
+    /* margin-left: 15vw; */
 }
 
 .user-email {
@@ -762,6 +762,10 @@ body {
 .contact-title {
     font-size: 7.5rem;
     width: 60vh;
+    text-align: right;
+}
+
+.footer-container {
     text-align: right;
 }
 
@@ -891,7 +895,6 @@ body {
   #prev-btn{
     display: none;
   }
-
   
   .carousel-item{
     height: 70vh;
