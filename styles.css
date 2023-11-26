@@ -214,12 +214,12 @@ body {
 }
 
 .about-us-first-session {
-    font-size: 7rem;
+    /* font-size: 7rem; */
     line-height: 0.1;
     text-align: right;
 }
 .about-us-first-session h1{
-    font-size: 7rem;
+    font-size: 9rem;
 }
 
 .qlass-logo-about-us {
@@ -229,10 +229,16 @@ body {
 }
 
 .free-session-container {
-    font-size: 2.0rem;
+    font-size: 2rem;
     text-align: left;
-    max-width: 600px;
+    max-width: 700px;
     /* line-height: 0.5; */
+}
+
+.free-session-container h1 {
+    font-size: 5rem;
+    width: 80%;
+    line-height: 1.5;
 }
 
 .free-sesh-paragraph {
@@ -250,6 +256,11 @@ body {
     color: #292929;
     padding: .6rem 2.2rem;
     background-color: #d3cfcf;
+    margin-top: 2rem;
+}
+
+.free-sesh-paragraph strong {
+    font-weight: 800;
 }
 
 .inquiries-container {
@@ -257,6 +268,11 @@ body {
     font-weight: 100;
     line-height: 0.3;
     margin-top: 5rem;
+}
+
+.inquiries-container p {
+    letter-spacing: 2px;
+    line-height: 0.8;
 }
 
 .about-us-paragraph {
@@ -283,6 +299,9 @@ body {
 
 .second-title {
     font-size: 3rem;
+    width: 50%;
+    display: block;
+    margin-bottom: 3rem;
 }
 
 .second-paragraph,
@@ -347,15 +366,16 @@ body {
     justify-content: center;
     align-items: center;
     gap: .2rem;
-    margin: 2rem 0;
+    margin: 4rem 0;
 }
 
 .qlass-footer-logo h1 {
-    font-size: .8rem;
+    font-size: 1.4rem;
     font-weight: 400;
 }
 
 .qlass-footer-logo img {
+    margin-bottom: 0.5rem;
     width: 30px;
     height: 30px;
 }
@@ -365,7 +385,7 @@ body {
         font-size: 1rem;
     }
     .about-us-first-session h1{
-        font-size: 5rem;
+        font-size: 7rem;
     }
     .qlass-logo-about-us {
         width: 100px;
@@ -377,11 +397,39 @@ body {
         max-width: 400px;
         line-height: 0.5;
     }
+
+    .free-session-container h1 {
+        line-height: 1.2;
+    }
     
     .free-sesh-paragraph {
         font-size: 1.35rem;
     }
 
+    .register-form {
+        padding: 0.9rem 2rem;
+        font-size: 1rem;
+    }
+    .second-title {
+        font-size: 2.5rem;
+        width: 100%;
+    }
+    
+    .second-paragraph {
+        font-size: 1.5rem;
+    }
+
+    .map-container h1 {
+        font-size: 2rem;
+    }
+
+    .user-email h1 {
+        font-size: 5.1rem;
+    }
+
+    .user-email p {
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width:1200px){
@@ -497,8 +545,12 @@ body {
     margin: 2rem 0;
 }
 
-.examination-container {
+.official-exam-container {
     margin: 30rem 0;
+}
+
+.examination-container {
+    margin: 4.5rem 0;
     padding: 0 0 5rem 0;
     background-color: #fff;
 }
@@ -569,12 +621,21 @@ body {
 
 .map-image {
     width: 90%;
-    margin: 2rem 0;
+    margin-bottom: 10rem;
 }
 
-.quotation {
-    font-size: 8rem;
-    font-family: 'Ephesis', cursive;
+.quote-img-left {
+    margin-right: 1rem;
+}
+
+.quote-img-left,
+.quote-img-right {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
+
+.quote-img-right {
+    margin-left: 1rem;
 }
 
 /* 
@@ -670,6 +731,7 @@ body {
 
 .carrer-calling-section {
     margin-bottom: 15rem;
+    margin-top: 15rem;
 }
 
 .career-calling {
@@ -699,6 +761,11 @@ body {
 } */
 
 /* contact page */
+
+.whole-contact-container {
+    background: linear-gradient(to bottom, #292929, #000);
+    border-bottom: #000 solid 1px;
+}
 
 .contact-container {
     display: flex;
@@ -742,8 +809,9 @@ body {
 
 .save-btn {
     font-family: 'roboto';
-    font-weight: 300;
+    font-weight: 400;
     text-decoration: underline;
+    text-decoration-thickness: 1.5px;
     border: none;
     background: none;
     color: #373637;
@@ -773,11 +841,30 @@ body {
 
 .footer-container {
     text-align: right;
-    margin-top: 30rem;
+    margin-top: 25rem;
+    line-height: 2.5;
+}
+
+.footer-container h1 {
+    font-size: 4rem;
+}
+
+.footer-container p {
+    font-size: 1rem;
+}
+
+.social-media-icons {
+    margin: 1.8rem 0;
 }
 
 .regis-container {
     margin-top: 30rem;
+    font-size: 1.5rem;
+}
+
+.contact-number-container {
+    margin: 2.5rem 0;
+    line-height: 0.7;
 }
 
 
@@ -790,12 +877,30 @@ body {
     font-size: 1.5rem;
 }
 #email::placeholder {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 .social-container {
     width: 40vw;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
+.social-container h1 {
+    font-size: 3.1rem;
+}
+.user-email input {
+    padding: .4rem 1rem;
+}
+.input-container button {
+    font-size: 1.1rem;
+}
+
+.regis-container {
+    margin-top: 39rem;
+}
+
+.free-session-container .register-form {
+    padding: 1.2rem 2.2rem;
+}
+
 }
 
 
