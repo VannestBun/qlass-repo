@@ -552,7 +552,7 @@ body {
     margin-top: 100px;
     margin: 100px;
 }
-#hsk-container{
+/* #hsk-container{
     background-color: white;
     width: 12vw;
     height: 12vw;
@@ -560,7 +560,7 @@ body {
     border-radius: 50%;
     display: flex;
     align-items: center;
-}
+} */
 
 #hsk-text{
     font-size: 7rem;
@@ -568,18 +568,27 @@ body {
 }
 
 #ielts-container{
-    background-color: white;
+    /* background-color: white;
     width: 30vw;
     height: 30vw;
     padding: 40px;
-    border-radius: 50%;
+    border-radius: 50%; */
     display: flex;
     align-items: center;
 }
 
 #ielts-text{
-    font-size: 10vw;
-    color: red;
+    font-size: 12vw;
+    color: #dd052b;
+    letter-spacing: -10px;
+    font-family: 'Archivo-black', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    padding: 10vw 3vw;
+    border-radius: 50%;
+
+    
+    
 }
 
 #tm{
@@ -589,9 +598,9 @@ body {
 }
 
 #hsk-logo{
-    width:12vw;
-    height:12vw;
-    /* border-radius: 50%; */
+    width: 11vw;
+    height: 10vw;
+    border-radius: 50%;
 }
 
 .qlass-container{
