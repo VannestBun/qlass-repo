@@ -578,11 +578,11 @@ body {
 }
 
 #ielts-text{
-    font-size: 12vw;
+    font-size: 10vw;
     color: #dd052b;
     letter-spacing: -10px;
     font-family: 'Archivo-black', sans-serif;
-    font-weight: bold;
+    font-weight: 800;
     background-color: white;
     padding: 10vw 3vw;
     border-radius: 50%;
